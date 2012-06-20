@@ -1,0 +1,159 @@
+body, blockquote{
+margin:0;
+}
+p{
+	margin-top:0;
+}
+body{
+font-family:Helvetica;
+font-size:62.5%;
+background:#fbe3e3;
+}
+.bold {
+font-weight:bold;
+}
+header{
+	background:#74a5b4;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cad8db), color-stop(20%,#cad8db), color-stop(65%,#cad8db), color-stop(100%,#74a5b4)); /* webkit */
+	background: -moz-linear-gradient(center top , #CAD8DB 0%, #CAD8DB 20%, #CAD8DB 65%, #74A5B4 100%) repeat scroll 0 0 transparent;
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#cad8db', EndColorStr='#74a5b4'); /* IE6,IE7 */
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#cad8db', EndColorStr='#74a5b4')"; /* IE8 */
+	border-top:2px solid #e1007c;
+	height:315px;
+}
+#heading{
+	padding-top:45px;
+}
+header h2{
+	font-size:12em;
+	margin:0;
+	line-height: 0.85em;
+	font-weight:bold;
+	letter-spacing:-9px;
+}
+header h3{
+	margin:0;
+	line-height: 0.9em;
+	font-size:3.3em;
+	letter-spacing:-1.4px;
+	text-transform:uppercase;
+	text-shadow: #fff 0 1px 1px;
+}
+
+header h4 {
+    color: #454547;
+    font-family: Helvetica,arial,serif;
+    font-size: 1.74em;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 1.15em;
+    margin: 3px 0 0;
+    width: 290px;
+}
+h2, h3{
+color:#e1007c;	
+font-family: 'Droid Sans', arial, serif;
+
+}
+
+#content, #heading {
+width:960px;
+margin:0 auto;	
+}
+
+#photo {
+    background-color: #898989;
+    -webkit-border-radius:15px 15px 15px 15px;
+	-moz-border-radius:15px 15px 15px 15px;
+	border-radius: 15px 15px 15px 15px;
+    bottom: 204px;
+    box-shadow: 0 0 15px 2px #888888;
+    height: 348px;
+	left: 359px;
+    overflow: hidden;
+    position: relative;
+    width: 540px;
+}
+#photo figcaption{
+	position:absolute;
+	bottom:0;
+	height:60px;
+	background-color:rgba(0,0,0,0.5);
+	color:#fff;
+	display:block;
+	width:100%;
+	font-size:2em;
+	line-height:57px;
+	text-indent:20px;
+	-webkit-border-radius:0 0 15px 15px;
+	-moz-border-radius:0 0 15px 15px;
+	border-radius: 0 0 15px 15px;
+
+}
+/* need to redefine css properties here, bug fix for chrome: http://code.google.com/p/chromium/issues/detail?id=29427 */
+#image{
+	width: 540px;
+    height: 348px;
+	overflow:hidden;
+    -webkit-border-radius:15px 15px 15px 15px;
+	-moz-border-radius:15px 15px 15px 15px;
+	border-radius: 15px 15px 15px 15px;
+
+}
+#content {
+font-size:1.5em;
+color:#494641;
+padding-bottom:50px;
+border-bottom:2px solid #f39da0;
+}
+#content h1{
+	font-size:2.5em;
+	color:#75a4b4;
+	text-shadow: 0 -1px 0 #4B4044;
+}
+#left-content{
+float:left;
+width:480px;
+}
+#right-content{
+	float:right;
+	width:455px;
+	font-size:0.77em;
+	line-height:1.8em;
+}
+
+blockquote{
+float:right;
+color:#76a5b5;
+width:220px;
+font-size:1.15em;
+padding-bottom:10px;
+font-family: 'Droid Sans', arial, serif;
+border-bottom:14px solid;
+}
+
+.left-block, .right-block{
+width:227px;
+height:155px;
+}
+
+.left-block{
+	float:left;
+}
+
+.right-block{
+	float:right;
+}
+
+#left-content section:first-child{
+width:410px;
+}
+
+#content h2{
+	font-size:1.5em;
+}
+
+#right-content .right-block{
+width:220px;
+}
+.clear{ clear:both; }

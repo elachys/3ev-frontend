@@ -1,0 +1,11 @@
+# Answer to 3EV's front end test
+[view it online](http://www.elachys.co.uk/3ev-frontend/)
+
+I did this as a base line test whilst i was working at 3EV and it by no means my best work.
+It does demonstrate the concept and was produced in around two hours using artwork provided as a .PNG.
+
+
+##Requirements
+Reproduce the artwork using HTML5 and CSS3 for gradients, rounded corners or where appropriate.
+
+Display an image from Flickr within 3 miles of the current gps location.
